@@ -1,0 +1,113 @@
+/* =============================
+   Nicodemus Appiah WDD130 Styles
+   ============================= */
+
+/* Global Page Setup */
+body {
+  background-color: #f2f7fc; /* light blue background */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  background-color: #004d80;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Navigation Bar */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffeb3b; /* yellow highlight on hover */
+}
+
+/* Main Section */
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  color: #00334d;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+main p {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+/* Aside Section */
+aside {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #e6f0fa;
+  color: #222;
+  border-radius: 10px;
+}
+
+aside h2 {
+  color: #004d80;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* Paragraphs */
+p {
+  padding: 0;
+}
+
+/* Footer Section */
+footer {
+  background-color: #004d80;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 20px;
+  border-top: 3px solid #00334d;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
